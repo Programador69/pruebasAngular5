@@ -1,0 +1,54 @@
+<div class="container-fluid bg-info">
+  <header class="d-flex justify-content-center">
+    <h1 class="m-3"><a class="text-black text-decoration-none" href="/">Actividad Semana 5</a></h1>
+  </header>
+  
+    <div class="navbar navbar-expand-lg bg-white rounded">
+      <div class="col-md-4 d-flex justify-content-center">
+        <a class="navbar-item text-black" routerLink="acerca-de">Acerca de</a>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <a class="navbar-item text-black" routerLink="contacto">Contacto</a>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <a class="navbar-item text-black" routerLink="galeria">Galeria</a>
+      </div>
+    </div>
+
+    <div *ngIf="inicio()" class="m-4">
+      <h2 class="mb-4">Pagina de inicio funcionando correctamente</h2>
+
+      <div>
+        <p class="text-start">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, sit quas harum ex nisi exercitationem quia provident aliquam inventore beatae, ipsum eligendi laboriosam voluptatem corporis iure reiciendis dolores autem.
+        </p>
+      </div>
+    </div>
+</div>
+
+<div [@routeAnimations]="prepareRoute(outlet)">
+  <router-outlet #outlet="outlet"/>
+</div>
